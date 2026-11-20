@@ -1,0 +1,19 @@
+{
+  "name": "spur-github-prs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The user's GitHub pull requests as a Switch spur: each one's state and checks, within seconds.",
+  "license": "MIT",
+  "repository": "github:zachsents/spur-github-prs",
+  "spur": {
+    "name": "github-prs",
+    "command": [
+      "python3",
+      "./main.py"
+    ],
+    "shim": "switchboard",
+    "needs": [
+      "always-on"
+    ]
+  }
+}
