@@ -2,8 +2,7 @@
 
 Each one's state and checks, within seconds.
 
-A [Switch](https://switch.ax) extension: a Python MCP server (`sbmcp.py`, a Switchboard appendage) that Switch runs through
-[switch-ext-kit](https://github.com/zachsents/switch-ext-kit)'s shim. Its messages carry who sent them, for Switch's inbox and Contacts.
+A [Switch](https://switch.ax) extension, built on [switch-ext-kit](https://github.com/zachsents/switch-ext-kit). Its messages carry who sent them, for Switch's inbox and Contacts.
 
 ## Install
 
@@ -13,3 +12,11 @@ on the first machine with what it needs (`always-on`).
 ## Setup
 
 `gh auth login` on the machine that runs it.
+
+## Develop
+
+```sh
+bun install
+bun run check
+bun start   # serves MCP on stdio
+```

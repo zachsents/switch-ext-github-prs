@@ -1,5 +1,10 @@
-__pycache__/
-*.pyc
 node_modules/
-home/
+dist/
+build/
+artifacts/
+.hutch/
+.cottontail-tmp/
+*.tsbuildinfo
 .DS_Store
+.experiments/
+home/
