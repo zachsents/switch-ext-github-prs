@@ -1,3 +1,5 @@
+**Moved to [zachsents/switch](https://github.com/zachsents/switch/tree/main/extensions/github-prs).** This repo is archived.
+
 # switch-ext-github-prs
 
 Each one's state and checks, within seconds.
